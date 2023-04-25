@@ -1,0 +1,28 @@
+{
+  "name": "ads_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogeshthakare402/Ads_App.git"
+  },
+  "author": "Yogesh Thakare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yogeshthakare402/Ads_App/issues"
+  },
+  "homepage": "https://github.com/yogeshthakare402/Ads_App#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.4",
+    "nodemon": "^2.0.22"
+  }
+}
